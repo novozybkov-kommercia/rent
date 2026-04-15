@@ -1,0 +1,5 @@
+# Замените example.github.io/rent на ваш фактический URL GitHub Pages
+User-agent: *
+Allow: /
+
+Sitemap: https://example.github.io/rent/sitemap.xml

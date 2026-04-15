@@ -214,6 +214,7 @@ h2 {
 
 .gallery-section,
 .location-section,
+.faq-section,
 .contacts-section {
   padding: 2.3rem 0 1rem;
 }
@@ -226,8 +227,54 @@ h2 {
   padding: 3.8rem 0;
 }
 
+.faq-section {
+  scroll-margin-top: 12vh;
+}
+
 .section-head {
   margin-bottom: 1.2rem;
+}
+
+.faq-list {
+  display: grid;
+  gap: 0.65rem;
+  max-width: 720px;
+}
+
+.faq-item {
+  border: 1px solid rgba(156, 176, 200, 0.28);
+  border-radius: 14px;
+  background: rgba(15, 22, 32, 0.72);
+  padding: 0.35rem 0.9rem 0.55rem;
+}
+
+.faq-item summary {
+  cursor: pointer;
+  font-weight: 700;
+  color: #eef4fb;
+  padding: 0.45rem 0;
+  list-style: none;
+}
+
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-item summary::after {
+  content: "+";
+  float: right;
+  color: var(--gold);
+  font-weight: 700;
+}
+
+.faq-item[open] summary::after {
+  content: "–";
+}
+
+.faq-item p {
+  margin: 0 0 0.5rem;
+  color: #c7d5e8;
+  font-size: 0.96rem;
 }
 
 .gallery-grid {

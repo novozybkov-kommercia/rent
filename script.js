@@ -84,7 +84,7 @@ function showNext() {
 }
 
 function setupRevealAnimation() {
-  const revealElements = document.querySelectorAll(".hero-copy, .hero-card, .benefit, .gallery-section, .location-section, .contacts-section");
+  const revealElements = document.querySelectorAll(".hero-copy, .hero-card, .benefit, .gallery-section, .location-section, .faq-section, .contacts-section");
   revealElements.forEach((el) => el.classList.add("reveal"));
 
   const observer = new IntersectionObserver(
