@@ -24,6 +24,10 @@ body {
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Manrope", sans-serif;
   background:
@@ -435,5 +439,11 @@ h2 {
 
   .lightbox-next {
     right: calc(50% - 56px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
   }
 }
