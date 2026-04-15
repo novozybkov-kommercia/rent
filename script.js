@@ -1,11 +1,9 @@
 // Укажите точные имена файлов из папки photos/ в нужном порядке.
 const photoFiles = [
-  "photo-1.jpg",
-  "photo-2.jpg",
-  "photo-3.jpg",
-  "photo-4.jpg",
-  "photo-5.jpg",
-  "photo-6.jpg"
+  "photo_33_2026-04-16_00-01-14.jpg",
+  "photo_30_2026-04-16_00-01-14.jpg",
+  "photo_15_2026-04-16_00-01-14.jpg",
+  "photo_12_2026-04-16_00-01-14.jpg"
 ];
 
 const photos = photoFiles.map((file, index) => ({
