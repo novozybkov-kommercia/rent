@@ -349,13 +349,13 @@ h2 {
   border: 1px solid rgba(156, 176, 200, 0.24);
   border-radius: 16px;
   overflow: hidden;
-  min-height: 320px;
+  min-height: 500px;
   box-shadow: var(--shadow);
 }
 
 .map-wrap iframe {
   width: 100%;
-  min-height: 320px;
+  min-height: 500px;
   border: 0;
 }
 
@@ -493,6 +493,10 @@ h2 {
     flex-direction: column;
     justify-content: center;
     padding: 0.6rem 0;
+  }
+
+  .hero-actions {
+    display: none;
   }
 
   .gallery-grid {
