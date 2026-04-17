@@ -2,4 +2,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://example.github.io/rent/sitemap.xml
+Sitemap: https://novozybkov-kommercia.github.io/rent/sitemap.xml
