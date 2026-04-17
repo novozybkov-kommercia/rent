@@ -54,7 +54,6 @@ a {
 }
 
 .site-header {
-  position: sticky;
   top: 0;
   z-index: 30;
   backdrop-filter: blur(8px);
@@ -489,18 +488,6 @@ h2 {
 }
 
 @media (max-width: 700px) {
-  .site-header {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-  }
-
-  body {
-    padding-top: 108px;
-  }
-
   .header-inner {
     flex-direction: column;
     justify-content: center;
