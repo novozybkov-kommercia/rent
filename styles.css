@@ -529,6 +529,10 @@ h2 {
   .hero {
     padding: 2rem 0 1.8rem;
   }
+
+  .site-footer {
+    position: relative;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
